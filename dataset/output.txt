@@ -1,140 +1,139 @@
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Ao                            1              1              1              1              1,             
-elaborar                      1              1              1              1              2,             
-artigos                       1              1              1              1              3,             
-científicos,                 1              1              1              1              4,             
-escrita                       1              1              1              1              6,             
-clara                         1              1              1              1              7,             
-estrutura                     1              1              1              1              10,            
-adequada                      1              1              1              1              11,            
-pode                          1              1              1              1              12,            
-melhorar                      1              1              1              1              13,            
-chances                       1              1              1              1              15,            
-publica-lo                    1              1              1              1              18,            
-congressos                    1              1              1              1              20,            
-maior                         1              1              1              1              22,            
 abrangência                  1              1              1              1              23,            
+adequada                      1              1              1              1              11,            
+artigos                       1              1              1              1              3,             
+chances                       1              1              1              1              15,            
+científicos                  1              1              1              1              4,             
+clara                         1              1              1              1              7,             
+congressos                    1              1              1              1              20,            
+elaborar                      1              1              1              1              2,             
+escrita                       1              1              1              1              6,             
+estrutura                     1              1              1              1              10,            
+maior                         1              1              1              1              22,            
 melhor                        1              1              1              1              25,            
+melhorar                      1              1              1              1              13,            
+pode                          1              1              1              1              12,            
+publica-lo                    1              1              1              1              18,            
 qualificação                1              1              2              1              26,            
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 26=> Number of words without stop words:                                           17
+=> Number of words with stop words: 26=> Number of words without stop words:                                           16
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Para                          1              2              2              1              1,             
-tanto,                        1              2              2              1              2,             
+alcançar                     1              2              3              1              27,            
 atentar-se                    1              2              2              1              3,             
-detalhes,                     1              2              2              1              5,             
-tais                          1              2              2              1              6,             
-como,                         1              2              2              1              7,             
-repetição                   1              2              2              1              8,             
-palavras,                     1              2              2              1              10,            
-expressões,                  1              2              2              1              11,            
-numero                        1              2              2              1              12,            
-sentenças                    1              2              2              1              14,            
-quantidade                    1              2              2              1              16,            
+bom                           1              2              3              1              24,            
+como                          1              2              2              1              7,             
+detalhes                      1              2              2              1              5,             
+expressões                   1              2              2              1              11,            
+início                       1              2              3              1              25,            
 linhas                        1              2              2              1              18,            
+melhoria                      1              2              3              1              29,            
+numero                        1              2              2              1              12,            
+palavras                      1              2              2              1              10,            
 parágrafo                    1              2              2              1              20,            
 pode                          1              2              2              1              21,            
-bom                           1              2              3              1              24,            
-início                       1              2              3              1              25,            
-alcançar                     1              2              3              1              27,            
-melhoria                      1              2              3              1              29,            
+quantidade                    1              2              2              1              16,            
+repetição                   1              2              2              1              8,             
+sentenças                    1              2              2              1              14,            
+tais                          1              2              2              1              6,             
+tanto                         1              2              2              1              2,             
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 29=> Number of words without stop words:                                           19
+=> Number of words with stop words: 29=> Number of words without stop words:                                           18
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Sabendo-se                    1              3              3              1              1,             
-disso,                        1              3              3              1              2,             
-professor                     1              3              3              1              4,             
-Dr                            1              3              3              1              5,             
-Antônio                      1              3              3              1              6,             
-Alfredo                       1              3              3              1              7,             
-Ferreira                      1              3              3              1              8,             
-Loreiro,                      1              3              3              1              9,             
-disciplina                    1              3              3              1              12,            
-projeto                       1              3              3              1              14,            
+alfredo                       1              3              3              1              7,             
+algoritmos                    1              3              3              1              18,            
+antônio                      1              3              3              1              6,             
 análise                      1              3              3              1              16,            
-algoritmos,                   1              3              3              1              18,            
+artigos                       1              3              4              1              44,            
+ascii                         1              3              5              1              52,            
+auxiliar                      1              3              4              1              40,            
+científicos                  1              3              4              1              45,            
+conceitos                     1              3              4              1              25,            
+correção                    1              3              4              1              42,            
+criação                     1              3              4              1              32,            
+dados                         1              3              4              1              29,            
+disciplina                    1              3              3              1              12,            
+disso                         1              3              3              1              2,             
+escritos                      1              3              5              1              49,            
+estruturas                    1              3              4              1              27,            
+ferreira                      1              3              3              1              8,             
+formatação                  1              3              5              1              47,            
+loreiro                       1              3              3              1              9,             
+padrão                       1              3              5              1              51,            
+professor                     1              3              3              1              4,             
+projeto                       1              3              3              1              14,            
 propôs                       1              3              4              1              19,            
+pudesse                       1              3              4              1              37,            
+sabendo-se                    1              3              3              1              1,             
+solução                     1              3              4              1              35,            
 trabalho                      1              3              4              1              21,            
 utilização                  1              3              4              1              23,            
-conceitos                     1              3              4              1              25,            
-estruturas                    1              3              4              1              27,            
-dados                         1              3              4              1              29,            
-criação                     1              3              4              1              32,            
-solução                     1              3              4              1              35,            
-pudesse                       1              3              4              1              37,            
 vir                           1              3              4              1              38,            
-auxiliar                      1              3              4              1              40,            
-correção                    1              3              4              1              42,            
-artigos                       1              3              4              1              44,            
-científicos                  1              3              4              1              45,            
-formatação                  1              3              5              1              47,            
-escritos                      1              3              5              1              49,            
-padrão                       1              3              5              1              51,            
-ASCII                         1              3              5              1              52,            
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 52=> Number of words without stop words:                                           30
+=> Number of words with stop words: 52=> Number of words without stop words:                                           29
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Visto                         1              4              5              1              1,             
-que,                          1              4              5              1              2,             
-solução                     1              4              5              1              4,             
 apresentada                   1              4              5              1              5,             
-deveria                       1              4              5              1              6,             
-utilizar                      1              4              5              1              7,             
-forma                         1              4              5              2              9,23,          
-busca                         1              4              5              2              11,36,         
-palavras                      1              4              5              1              13,            
-identificação               1              4              5              1              16,            
-stop                          1              4              5              1              18,            
-words                         1              4              5              1              19,            
-expressões,                  1              4              6              1              21,            
-indexação                   1              4              6              1              25,            
-poderia                       1              4              6              1              26,            
-vir                           1              4              6              1              27,            
 apresentar                    1              4              6              1              29,            
-melhores                      1              4              6              1              30,            
-resultados                    1              4              6              1              31,            
+busca                         1              4              5              2              11,36,         
+deveria                       1              4              5              1              6,             
 estruturas                    1              4              6              1              34,            
-sequêncial                   1              4              6              1              37,            
+expressões                   1              4              6              1              21,            
+forma                         1              4              5              2              9,23,          
+identificação               1              4              5              1              16,            
+indexação                   1              4              6              1              25,            
+melhores                      1              4              6              1              30,            
 não                          1              4              6              1              39,            
 ordenadas                     1              4              6              1              40,            
+palavras                      1              4              5              1              13,            
+poderia                       1              4              6              1              26,            
+que                           1              4              5              1              2,             
+resultados                    1              4              6              1              31,            
+sequêncial                   1              4              6              1              37,            
+solução                     1              4              5              1              4,             
+stop                          1              4              5              1              18,            
+utilizar                      1              4              5              1              7,             
+vir                           1              4              6              1              27,            
+visto                         1              4              5              1              1,             
+words                         1              4              5              1              19,            
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 40=> Number of words without stop words:                                           25
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Observando                    1              5              6              1              1,             
-várias                       1              5              6              1              2,             
-estruturas                    1              5              6              1              3,             
+algoritmo                     1              5              7              1              21,            
+base                          1              5              7              1              19,            
+compor                        1              5              7              1              17,            
 definidas                     1              5              7              1              4,             
-literatura,                   1              5              7              1              6,             
-árvore                       1              5              7              1              8,             
+desenvolvido                  1              5              7              1              22,            
+escolhidos                    1              5              7              1              15,            
+estruturas                    1              5              6              1              3,             
+foram                         1              5              7              1              14,            
+literatura                    1              5              7              1              6,             
+map                           1              5              7              1              13,            
+observando                    1              5              6              1              1,             
 patricia                      1              5              7              1              9,             
 tipo                          1              5              7              1              12,            
-map                           1              5              7              1              13,            
-foram                         1              5              7              1              14,            
-escolhidos                    1              5              7              1              15,            
-compor                        1              5              7              1              17,            
-base                          1              5              7              1              19,            
-algoritmo                     1              5              7              1              21,            
-desenvolvido                  1              5              7              1              22,            
+várias                       1              5              6              1              2,             
+árvore                       1              5              7              1              8,             
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 22=> Number of words without stop words:                                           15
 =======================================================================================================================================
 
-EXPRESSIONLINE                                                                                                APPEARANCES         
+EXPRESSION                                                                      LINE                    APPEARANCES
 ---------------------------------------------------------------------------------------------------------------------------------------
+visto que                                                                                           5                   1                   
 stop words                                                                                          5                   1                   
+para tanto                                                                                          2                   1                   
 ---------------------------------------------------------------------------------------------------------------------------------------
 =======================================================================================================================================
 => Beginning paragraph in line: 1  Number of sentences: 5
@@ -142,89 +141,88 @@ stop words                                                                      
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-A                             2              1              9              1              1,             
-árvore                       2              1              9              1              2,             
-patricia                      2              1              9              1              3,             
-estrutura                     2              1              9              1              6,             
-dados                         2              1              9              1              8,             
-família                      2              1              9              1              10,            
-árvores                      2              1              9              1              12,            
-digitais                      2              1              9              1              13,            
-faz                           2              1              9              1              15,            
-uso                           2              1              9              1              16,            
-chaves,                       2              1              9              1              18,            
-tais                          2              1              9              1              19,            
-como,                         2              1              9              1              20,            
-sequência                    2              1              9              1              21,            
 caracteres                    2              1              9              1              23,            
+chaves                        2              1              9              1              18,            
+como                          2              1              9              1              20,            
+dados                         2              1              9              1              8,             
+digitais                      2              1              9              1              13,            
 dígitos                      2              1              9              1              25,            
+estrutura                     2              1              9              1              6,             
+família                      2              1              9              1              10,            
+faz                           2              1              9              1              15,            
 indexação                   2              1              9              1              28,            
 palavras                      2              1              10             1              30,            
+patricia                      2              1              9              1              3,             
+sequência                    2              1              9              1              21,            
+tais                          2              1              9              1              19,            
+uso                           2              1              9              1              16,            
+árvore                       2              1              9              1              2,             
+árvores                      2              1              9              1              12,            
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 30=> Number of words without stop words:                                           18
+=> Number of words with stop words: 30=> Number of words without stop words:                                           17
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Comparada,                    2              2              10             1              1,             
-grosso                        2              2              10             1              2,             
-modo,                         2              2              10             1              3,             
-índices                      2              2              10             1              6,             
-dedo                          2              2              10             1              8,             
-encontrados                   2              2              10             1              9,             
-dicionários                  2              2              10             1              11,            
-convencionais,                2              2              10             1              12,            
-estrutura                     2              2              10             1              14,            
-prove                         2              2              10             1              15,            
-vantagens                     2              2              10             1              16,            
-quando                        2              2              10             1              17,            
-chaves                        2              2              10             1              19,            
-utilizadas                    2              2              10             1              20,            
-são                          2              2              11             1              21,            
 caracterizadas                2              2              11             1              22,            
-serem                         2              2              11             1              24,            
-variáveis                    2              2              11             1              25,            
-tamanho                       2              2              11             1              28,            
+chaves                        2              2              10             1              19,            
+comparada                     2              2              10             1              1,             
+convencionais                 2              2              10             1              12,            
+dedo                          2              2              10             1              8,             
+dicionários                  2              2              10             1              11,            
+encontrados                   2              2              10             1              9,             
+estrutura                     2              2              10             1              14,            
+grosso                        2              2              10             1              2,             
+modo                          2              2              10             1              3,             
+prove                         2              2              10             1              15,            
+quando                        2              2              10             1              17,            
 semi-infinito                 2              2              11             1              29,            
+serem                         2              2              11             1              24,            
+são                          2              2              11             1              21,            
+tamanho                       2              2              11             1              28,            
+utilizadas                    2              2              10             1              20,            
+vantagens                     2              2              10             1              16,            
+variáveis                    2              2              11             1              25,            
+índices                      2              2              10             1              6,             
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 29=> Number of words without stop words:                                           20
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Pensando                      2              3              11             1              1,             
-nisso,                        2              3              11             1              2,             
-trabalho,                     2              3              11             1              5,             
-foram                         2              3              11             1              6,             
-criadas                       2              3              11             1              7,             
-chaves                        2              3              11             1              8,             
 bits                          2              3              11             1              11,            
-obtidas                       2              3              11             1              12,            
-enviando-se                   2              3              11             1              13,            
-palavra                       2              3              12             1              15,            
-método                       2              3              12             1              17,            
-GetBinaryKey,                 2              3              12             1              18,            
-qual,                         2              3              12             1              20,            
-prove                         2              3              12             1              21,            
-seu                           2              3              12             1              22,            
-retorno                       2              3              12             1              23,            
+chaves                        2              3              11             1              8,             
+criadas                       2              3              11             1              7,             
 dois                          2              3              12             1              25,            
-principais                    2              3              12             1              27,            
-métodos                      2              3              12             1              28,            
+enviando-se                   2              3              11             1              13,            
 estrutura:                    2              3              12             1              30,            
+foram                         2              3              11             1              6,             
+getbinarykey                  2              3              12             1              18,            
+método                       2              3              12             1              17,            
+métodos                      2              3              12             1              28,            
+nisso                         2              3              11             1              2,             
+obtidas                       2              3              11             1              12,            
+palavra                       2              3              12             1              15,            
+pensando                      2              3              11             1              1,             
+principais                    2              3              12             1              27,            
+prove                         2              3              12             1              21,            
+qual                          2              3              12             1              20,            
+retorno                       2              3              12             1              23,            
+seu                           2              3              12             1              22,            
+trabalho                      2              3              11             1              5,             
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 30=> Number of words without stop words:                                           20
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Insert                        2              4              12             1              2,             
-LookUp                        2              4              12             1              5,             
+insert                        2              4              12             1              2,             
+lookup                        2              4              12             1              5,             
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 5=> Number of words without stop words:                                           2
 =======================================================================================================================================
 
-EXPRESSIONLINE                                                                                                APPEARANCES         
+EXPRESSION                                                                      LINE                    APPEARANCES
 ---------------------------------------------------------------------------------------------------------------------------------------
 prove                                                                                               10                  2                   
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -234,120 +232,115 @@ prove                                                                           
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-O                             3              1              14             1              1,             
-Insert                        3              1              14             1              2,             
-faz                           3              1              14             1              3,             
-uso                           3              1              14             1              4,             
 chave                         3              1              14             1              6,             
-identificar                   3              1              14             1              8,             
 criar                         3              1              14             1              10,            
-nó                           3              1              14             1              12,            
 estrutura                     3              1              14             1              14,            
+faz                           3              1              14             1              3,             
+identificar                   3              1              14             1              8,             
+insert                        3              1              14             1              2,             
+nó                           3              1              14             1              12,            
+uso                           3              1              14             1              4,             
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 14=> Number of words without stop words:                                           9
+=> Number of words with stop words: 14=> Number of words without stop words:                                           8
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Esse,                         3              2              14             1              1,             
-vez,                          3              2              14             1              4,             
+armazenar                     3              2              14             1              14,            
+cada                          3              2              15             1              31,            
+chave                         3              2              15             1              17,            
+dado                          3              2              15             1              19,            
 definido                      3              2              14             1              6,             
+esse                          3              2              14             1              1,             
+informações                 3              2              15             1              15,            
+linhas                        3              2              15             1              25,            
+número                       3              2              15             1              21,            
+ocorrência                   3              2              15             1              29,            
+palavra                       3              2              15             1              32,            
+parágrafos                   3              2              15             1              27,            
+patriciatreenode              3              2              14             1              9,             
+repetições                  3              2              15             1              23,            
 tipo                          3              2              14             1              8,             
-PatriciaTreeNode              3              2              14             1              9,             
-                              3              2              14             1              10,            
-utilizado                     3              2              14             1              13,            
-armazenar                     3              2              14             1              15,            
-informações                 3              2              15             1              16,            
-chave,                        3              2              15             1              18,            
-dado,                         3              2              15             1              20,            
-número                       3              2              15             1              22,            
-repetições,                 3              2              15             1              24,            
-linhas                        3              2              15             1              26,            
-parágrafos                   3              2              15             1              28,            
-ocorrência                   3              2              15             1              30,            
-cada                          3              2              15             1              32,            
-palavra                       3              2              15             1              33,            
+utilizado                     3              2              14             1              12,            
+vez                           3              2              14             1              4,             
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 33=> Number of words without stop words:                                           18
+=> Number of words with stop words: 32=> Number of words without stop words:                                           17
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-                              3              3              15             2              1,18,          
-Sabendo-se                    3              3              15             1              2,             
-possíveis                    3              3              15             1              6,             
-gargalos                      3              3              15             1              7,             
-poderia                       3              3              16             1              8,             
-avaliação                   3              3              16             1              11,            
-chave,                        3              3              16             1              13,            
-métodos                      3              3              16             1              14,            
-apoio,                        3              3              16             1              16,            
-como,                         3              3              16             1              17,            
-bit_first_different,          3              3              16             1              19,            
-key_compare                   3              3              16             1              20,            
-get_bit                       3              3              16             1              22,            
-foram                         3              3              16             1              23,            
-implementados                 3              3              16             1              24,            
+apoio                         3              3              16             1              15,            
+avaliação                   3              3              16             1              10,            
+bit_first_different           3              3              16             1              17,            
+chave                         3              3              16             1              12,            
+como                          3              3              16             1              16,            
+foram                         3              3              16             1              21,            
+gargalos                      3              3              15             1              6,             
+get_bit                       3              3              16             1              20,            
+implementados                 3              3              16             1              22,            
+key_compare                   3              3              16             1              18,            
+métodos                      3              3              16             1              13,            
+poderia                       3              3              16             1              7,             
+possíveis                    3              3              15             1              5,             
+sabendo-se                    3              3              15             1              1,             
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 24=> Number of words without stop words:                                           16
+=> Number of words with stop words: 22=> Number of words without stop words:                                           14
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Objetivou-se                  3              4              16             1              1,             
-isso                          3              4              16             1              3,             
+binária                      3              4              17             1              9,             
+constante                     3              4              17             1              16,            
 definir                       3              4              16             1              4,             
 forma                         3              4              17             1              6,             
+isso                          3              4              16             1              3,             
 manipulação                 3              4              17             1              8,             
-binária                      3              4              17             1              9,             
-retornasse                    3              4              17             1              11,            
+objetivou-se                  3              4              16             1              1,             
 resultados                    3              4              17             1              12,            
+retornasse                    3              4              17             1              11,            
 tempo                         3              4              17             1              15,            
-constante                     3              4              17             1              16,            
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 16=> Number of words without stop words:                                           10
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Como                          3              5              17             1              1,             
-pode                          3              5              17             1              2,             
-observado                     3              5              17             1              4,             
-código                       3              5              17             1              6,             
 apresentado                   3              5              17             1              7,             
-junto                         3              5              17             1              8,             
+bits                          3              5              18             1              22,            
+c/c++                         3              5              18             1              27,            
+código                       3              5              17             1              6,             
+deslocamento                  3              5              18             1              20,            
 documento                     3              5              17             1              11,            
 isso                          3              5              17             1              12,            
+junto                         3              5              17             1              8,             
+linguagem                     3              5              18             1              26,            
+observado                     3              5              17             1              4,             
 obtido                        3              5              17             1              14,            
 pela                          3              5              18             2              15,24,         
-utilização                  3              5              18             1              16,            
-recursos                      3              5              18             1              18,            
-deslocamento                  3              5              18             1              20,            
-bits                          3              5              18             1              22,            
+pode                          3              5              17             1              2,             
 providos                      3              5              18             1              23,            
 própria                      3              5              18             1              25,            
-linguagem                     3              5              18             1              26,            
-C/C++                         3              5              18             1              27,            
+recursos                      3              5              18             1              18,            
+utilização                  3              5              18             1              16,            
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 27=> Number of words without stop words:                                           19
+=> Number of words with stop words: 27=> Number of words without stop words:                                           18
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Um                            3              6              18             1              1,             
-segundo                       3              6              18             1              2,             
-método                       3              6              18             1              3,             
 beneficiou                    3              6              18             1              6,             
-deste                         3              6              18             1              7,             
-processo                      3              6              18             1              8,             
 busca                         3              6              18             1              11,            
+deste                         3              6              18             1              7,             
+lookup                        3              6              18             1              15,            
+método                       3              6              18             1              3,             
 nós                          3              6              18             1              13,            
-LookUp                        3              6              18             1              15,            
+processo                      3              6              18             1              8,             
+segundo                       3              6              18             1              2,             
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 15=> Number of words without stop words:                                           9
+=> Number of words with stop words: 15=> Number of words without stop words:                                           8
 =======================================================================================================================================
 
-EXPRESSIONLINE                                                                                                APPEARANCES         
+EXPRESSION                                                                      LINE                    APPEARANCES
 ---------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------------------------------------------------------------
 =======================================================================================================================================
@@ -356,81 +349,358 @@ EXPRESSIONLINE                                                                  
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-O                             4              1              20             1              1,             
-                              4              1              20             1              2,             
-LookUp                        4              1              20             1              3,             
-método                       4              1              20             1              6,             
-utilizado                     4              1              20             1              7,             
-pela                          4              1              20             1              8,             
-árvore                       4              1              20             1              9,             
-buscar                        4              1              20             1              11,            
-dado                          4              1              20             1              13,            
-nó                           4              1              20             1              14,            
-partir                        4              1              20             1              16,            
-chave                         4              1              20             1              19,            
-binária                      4              1              20             1              20,            
-qualquer                      4              1              20             1              21,            
+binária                      4              1              20             1              19,            
+buscar                        4              1              20             1              10,            
+chave                         4              1              20             1              18,            
+dado                          4              1              20             1              12,            
+lookup                        4              1              20             1              2,             
+método                       4              1              20             1              5,             
+nó                           4              1              20             1              13,            
+partir                        4              1              20             1              15,            
+pela                          4              1              20             1              7,             
+qualquer                      4              1              20             1              20,            
+utilizado                     4              1              20             1              6,             
+árvore                       4              1              20             1              8,             
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 21=> Number of words without stop words:                                           14
+=> Number of words with stop words: 20=> Number of words without stop words:                                           12
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Se                            4              2              20             1              1,             
-resultado                     4              2              20             1              3,             
+encontrado                    4              2              20             1              10,            
 for                           4              2              20             2              4,9,           
-positivo                      4              2              20             1              5,             
 nó                           4              2              20             1              8,             
-encontrado,                   4              2              20             1              10,            
+positivo                      4              2              20             1              5,             
+resultado                     4              2              20             1              3,             
 retornado                     4              2              21             1              13,            
 usuário                      4              2              21             1              16,            
 ---------------------------------------------------------------------------------------------------------------------------------------
-=> Number of words with stop words: 16=> Number of words without stop words:                                           9
+=> Number of words with stop words: 16=> Number of words without stop words:                                           8
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-Caso                          4              3              21             1              1,             
-contrário,                   4              3              21             1              2,             
+caso                          4              3              21             1              1,             
+contrário                    4              3              21             1              2,             
 enviado                       4              3              21             1              4,             
+identificar                   4              3              21             1              12,            
+localização                 4              3              21             1              15,            
+null                          4              3              21             1              10,            
+não                          4              3              21             1              14,            
+palavra                       4              3              21             1              17,            
+pesquisada.esse               4              3              21             1              18,            
 resposta                      4              3              21             1              6,             
 retorno                       4              3              21             1              8,             
 vazio                         4              3              21             1              9,             
-NULL                          4              3              21             1              10,            
-identificar                   4              3              21             1              12,            
-não                          4              3              21             1              14,            
-localização                 4              3              21             1              15,            
-palavra                       4              3              21             1              17,            
-pesquisada.Esse,              4              3              21             1              18,            
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 18=> Number of words without stop words:                                           12
 =======================================================================================================================================
 
 WORD                          PARAGRAPH      SENTENCE       LINE           APPEARANCES    POSITIONS      
 ---------------------------------------------------------------------------------------------------------------------------------------
-entre                         4              4              21             1              1,             
-outros                        4              4              22             1              2,             
-métodos                      4              4              22             1              3,             
-providos                      4              4              22             1              4,             
-pela                          4              4              22             1              5,             
-solução                     4              4              22             1              6,             
-aqui                          4              4              22             1              7,             
-apresentada                   4              4              22             1              8,             
-podem                         4              4              22             1              9,             
-observados                    4              4              22             1              11,            
-diagrama                      4              4              22             1              13,            
-UML                           4              4              22             1              14,            
-Figura                        4              4              22             1              16,            
 1                             4              4              22             1              17,            
+apresentada                   4              4              22             1              8,             
+aqui                          4              4              22             1              7,             
+diagrama                      4              4              22             1              13,            
+entre                         4              4              21             1              1,             
+figura                        4              4              22             1              16,            
+métodos                      4              4              22             1              3,             
+observados                    4              4              22             1              11,            
+outros                        4              4              22             1              2,             
+pela                          4              4              22             1              5,             
+podem                         4              4              22             1              9,             
+providos                      4              4              22             1              4,             
+solução                     4              4              22             1              6,             
+uml                           4              4              22             1              14,            
 ---------------------------------------------------------------------------------------------------------------------------------------
 => Number of words with stop words: 17=> Number of words without stop words:                                           14
 =======================================================================================================================================
 
-EXPRESSIONLINE                                                                                                APPEARANCES         
+EXPRESSION                                                                      LINE                    APPEARANCES
 ---------------------------------------------------------------------------------------------------------------------------------------
+caso contrário                                                                                     21                  1                   
 a partir de                                                                                         20                  1                   
 ---------------------------------------------------------------------------------------------------------------------------------------
 =======================================================================================================================================
 => Beginning paragraph in line: 20  Number of sentences: 4
 =======================================================================================================================================
 
+======================================================================================================================================
+=>                                                    ### FULL RESULT ###                                                               
+======================================================================================================================================
+
+_______________________________________________________________________________________________________________________________________
+WORD			PARAGRAPH		SENTENCE		LINE		APPEARANCES		POSITIONS
+---------------------------------------------------------------------------------------------------------------------------------------
+1.			4			4			22			1			17
+abrangência			1			1			1			1			23
+adequada			1			1			1			1			11
+alcançar			1			2			3			1			27
+alfredo			1			3			3			1			7
+algoritmo			1			5			7			1			21
+algoritmos,			1			3			3			1			18
+antônio			1			3			3			1			6
+análise			1			3			3			1			16
+apoio,			3			3			16			1			15
+apresentada			1 4			4			5 22			2			5 8
+apresentado			3			5			17			1			7
+apresentar			1			4			6			1			29
+aqui			4			4			22			1			7
+armazenar			3			2			14			1			14
+artigos			1			1 3			1 4			2			3 44
+ascii.			1			3			5			1			52
+atentar-se			1			2			2			1			3
+auxiliar			1			3			4			1			40
+avaliação			3			3			16			1			10
+base			1			5			7			1			19
+beneficiou			3			6			18			1			6
+binária			3 4			4 1			17 20			2			9 19
+bit_first_different,			3			3			16			1			17
+bits			2 3			3 5			11 18			2			11 22
+bom			1			2			3			1			24
+busca			1 3			4 6			5 6 18			3			11 36 11
+buscar			4			1			20			1			10
+c/c++.			3			5			18			1			27
+cada			3			2			15			1			31
+caracteres			2			1			9			1			23
+caracterizadas			2			2			11			1			22
+caso			4			3			21			1			1
+chances			1			1			1			1			15
+chave			3 4			1			14 20			2			6 18
+chave,			3			2 3			15 16			2			17 12
+chaves			2			2 3			10 11			2			19 8
+chaves,			2			1			9			1			18
+científicos			1			3			4			1			45
+científicos,			1			1			1			1			4
+clara			1			1			1			1			7
+como,			1 2 3			2 1 3			2 9 16			3			7 20 16
+comparada,			2			2			10			1			1
+compor			1			5			7			1			17
+conceitos			1			3			4			1			25
+congressos			1			1			1			1			20
+constante.			3			4			17			1			16
+contrário,			4			3			21			1			2
+convencionais,			2			2			10			1			12
+correção			1			3			4			1			42
+criadas			2			3			11			1			7
+criar			3			1			14			1			10
+criação			1			3			4			1			32
+código			3			5			17			1			6
+dado			4			1			20			1			12
+dado,			3			2			15			1			19
+dados			1 2			3 1			4 9			2			29 8
+dedo			2			2			10			1			8
+definidas			1			5			7			1			4
+definido			3			2			14			1			6
+definir			3			4			16			1			4
+desenvolvido.			1			5			7			1			22
+deslocamento			3			5			18			1			20
+deste			3			6			18			1			7
+detalhes,			1			2			2			1			5
+deveria			1			4			5			1			6
+diagrama			4			4			22			1			13
+dicionários			2			2			10			1			11
+digitais			2			1			9			1			13
+disciplina			1			3			3			1			12
+disso,			1			3			3			1			2
+documento			3			5			17			1			11
+dois			2			3			12			1			25
+dígitos			2			1			9			1			25
+elaborar			1			1			1			1			2
+encontrado,			4			2			20			1			10
+encontrados			2			2			10			1			9
+entre			4			4			21			1			1
+enviado			4			3			21			1			4
+enviando-se			2			3			11			1			13
+escolhidos			1			5			7			1			15
+escrita			1			1			1			1			6
+escritos			1			3			5			1			49
+esse,			3			2			14			1			1
+estrutura			1 2			1 2			1 9 10			3			10 6 14
+estrutura.			3			1			14			1			14
+estrutura:			2			3			12			1			30
+estruturas			1			3 4 5			4 6			3			27 34 3
+expressões,			1			2 4			2 6			2			11 21
+família			2			1			9			1			10
+faz			2 3			1			9 14			2			15 3
+ferreira			1			3			3			1			8
+figura			4			4			22			1			16
+for			4			2			20			2			4 9
+foram			1 2 3			5 3			7 11 16			3			14 6 21
+forma			1 3			4			5 6 17			3			9 23 6
+formatação			1			3			5			1			47
+gargalos			3			3			15			1			6
+get_bit			3			3			16			1			20
+getbinarykey,			2			3			12			1			18
+grosso			2			2			10			1			2
+identificar			3 4			1 3			14 21			2			8 12
+identificação			1			4			5			1			16
+implementados.			3			3			16			1			22
+indexação			1 2			4 1			6 9			2			25 28
+informações			3			2			15			1			15
+insert			2 3			4 1			12 14			2			2 2
+início			1			2			3			1			25
+isso			3			4 5			16 17			2			3 12
+junto			3			5			17			1			8
+key_compare			3			3			16			1			18
+linguagem			3			5			18			1			26
+linhas			1 3			2			2 15			2			18 25
+literatura,			1			5			7			1			6
+localização			4			3			21			1			15
+lookup			4			1			20			1			2
+lookup.			2 3			4 6			12 18			2			5 15
+loreiro,			1			3			3			1			9
+maior			1			1			1			1			22
+manipulação			3			4			17			1			8
+map			1			5			7			1			13
+melhor			1			1			1			1			25
+melhorar			1			1			1			1			13
+melhores			1			4			6			1			30
+melhoria.			1			2			3			1			29
+modo,			2			2			10			1			3
+método			2 3 4			3 6 1			12 18 20			3			17 3 5
+métodos			2 3 4			3 4			12 16 22			3			28 13 3
+nisso,			2			3			11			1			2
+null			4			3			21			1			10
+numero			1			2			2			1			12
+não			1 4			4 3			6 21			2			39 14
+nó			3 4			1 2			14 20			3			12 13 8
+nós			3			6			18			1			13
+número			3			2			15			1			21
+objetivou-se			3			4			16			1			1
+observado			3			5			17			1			4
+observados			4			4			22			1			11
+observando			1			5			6			1			1
+obtidas			2			3			11			1			12
+obtido			3			5			17			1			14
+ocorrência			3			2			15			1			29
+ordenadas.			1			4			6			1			40
+outros			4			4			22			1			2
+padrão			1			3			5			1			51
+palavra			2 4			3			12 21			2			15 17
+palavra.			3			2			15			1			32
+palavras			1			4			5			1			13
+palavras,			1			2			2			1			10
+palavras.			2			1			10			1			30
+partir			4			1			20			1			15
+parágrafo			1			2			2			1			20
+parágrafos			3			2			15			1			27
+patricia			1 2			5 1			7 9			2			9 3
+patriciatreenode			3			2			14			1			9
+pela			3 4			5 1 4			18 20 22			4			15 24 7 5
+pensando			2			3			11			1			1
+pesquisada.esse,			4			3			21			1			18
+pode			1 3			1 2 5			1 2 17			3			12 21 2
+podem			4			4			22			1			9
+poderia			1 3			4 3			6 16			2			26 7
+positivo			4			2			20			1			5
+possíveis			3			3			15			1			5
+principais			2			3			12			1			27
+processo			3			6			18			1			8
+professor			1			3			3			1			4
+projeto			1			3			3			1			14
+propôs			1			3			4			1			19
+providos			3 4			5 4			18 22			2			23 4
+própria			3			5			18			1			25
+publica-lo			1			1			1			1			18
+pudesse			1			3			4			1			37
+qual,			2			3			12			1			20
+qualificação.			1			1			2			1			26
+qualquer.			4			1			20			1			20
+quando			2			2			10			1			17
+quantidade			1			2			2			1			16
+que,			1			4			5			1			2
+recursos			3			5			18			1			18
+repetição			1			2			2			1			8
+repetições,			3			2			15			1			23
+resposta			4			3			21			1			6
+resultado			4			2			20			1			3
+resultados			1 3			4			6 17			2			31 12
+retornado			4			2			21			1			13
+retornasse			3			4			17			1			11
+retorno			2 4			3			12 21			2			23 8
+sabendo-se			1 3			3			3 15			2			1 1
+segundo			3			6			18			1			2
+semi-infinito.			2			2			11			1			29
+sentenças			1			2			2			1			14
+sequência			2			1			9			1			21
+sequêncial			1			4			6			1			37
+serem			2			2			11			1			24
+seu			2			3			12			1			22
+solução			1 4			3 4			4 5 22			3			35 4 6
+stop			1			4			5			1			18
+são			2			2			11			1			21
+tais			1 2			2 1			2 9			2			6 19
+tamanho			2			2			11			1			28
+tanto,			1			2			2			1			2
+tempo			3			4			17			1			15
+tipo			1 3			5 2			7 14			2			12 8
+trabalho			1			3			4			1			21
+trabalho,			2			3			11			1			5
+uml			4			4			22			1			14
+uso			2 3			1			9 14			2			16 4
+usuário.			4			2			21			1			16
+utilizadas			2			2			10			1			20
+utilizado			3 4			2 1			14 20			2			12 6
+utilizar			1			4			5			1			7
+utilização			1 3			3 5			4 18			2			23 16
+vantagens			2			2			10			1			16
+variáveis			2			2			11			1			25
+vazio			4			3			21			1			9
+vez,			3			2			14			1			4
+vir			1			3 4			4 6			2			38 27
+visto			1			4			5			1			1
+várias			1			5			6			1			2
+words			1			4			5			1			19
+árvore			1 2 4			5 1			7 9 20			3			8 2 8
+árvores			2			1			9			1			12
+índices			2			2			10			1			6
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+                                       NUMBER OF WORDS IN EACH SENTENCE WITH AND WITHOUT STOP WORDS                                     
+---------------------------------------------------------------------------------------------------------------------------------------
+Paragraph: 1	 Sentence: 1	 Number of words with stop words: 26	 Number of words without stop words: 16
+Paragraph: 1	 Sentence: 2	 Number of words with stop words: 29	 Number of words without stop words: 18
+Paragraph: 1	 Sentence: 3	 Number of words with stop words: 52	 Number of words without stop words: 29
+Paragraph: 1	 Sentence: 4	 Number of words with stop words: 40	 Number of words without stop words: 25
+Paragraph: 1	 Sentence: 5	 Number of words with stop words: 22	 Number of words without stop words: 15
+_______________________________________________________________________________________________________________________________________
+Paragraph: 2	 Sentence: 1	 Number of words with stop words: 30	 Number of words without stop words: 17
+Paragraph: 2	 Sentence: 2	 Number of words with stop words: 29	 Number of words without stop words: 20
+Paragraph: 2	 Sentence: 3	 Number of words with stop words: 30	 Number of words without stop words: 20
+Paragraph: 2	 Sentence: 4	 Number of words with stop words: 5	 Number of words without stop words: 2
+_______________________________________________________________________________________________________________________________________
+Paragraph: 3	 Sentence: 1	 Number of words with stop words: 14	 Number of words without stop words: 8
+Paragraph: 3	 Sentence: 2	 Number of words with stop words: 32	 Number of words without stop words: 17
+Paragraph: 3	 Sentence: 3	 Number of words with stop words: 22	 Number of words without stop words: 14
+Paragraph: 3	 Sentence: 4	 Number of words with stop words: 16	 Number of words without stop words: 10
+Paragraph: 3	 Sentence: 5	 Number of words with stop words: 27	 Number of words without stop words: 18
+Paragraph: 3	 Sentence: 6	 Number of words with stop words: 15	 Number of words without stop words: 8
+_______________________________________________________________________________________________________________________________________
+Paragraph: 4	 Sentence: 1	 Number of words with stop words: 20	 Number of words without stop words: 12
+Paragraph: 4	 Sentence: 2	 Number of words with stop words: 16	 Number of words without stop words: 8
+Paragraph: 4	 Sentence: 3	 Number of words with stop words: 18	 Number of words without stop words: 12
+Paragraph: 4	 Sentence: 4	 Number of words with stop words: 17	 Number of words without stop words: 14
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+                                                   LINE NUMBER THAT START EACH PARAGRAPH                                                
+---------------------------------------------------------------------------------------------------------------------------------------
+Paragraph: 1	 Beginning in line: 1	 Number of sentences: 5
+Paragraph: 2	 Beginning in line: 9	 Number of sentences: 4
+Paragraph: 3	 Beginning in line: 14	 Number of sentences: 6
+Paragraph: 4	 Beginning in line: 20	 Number of sentences: 4
+_______________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
+EXPRESSION 					  LINE 		   APPEARANCES 
+---------------------------------------------------------------------------------------------------------------------------------------
+visto que					5		       1
+stop words					5		       1
+prove					10 11		       2
+para tanto					2		       1
+caso contrário					21		       1
+a partir de					20		       1
+---------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================
+=>                                                    ### END PROCESS ###                                                              
+======================================================================================================================================

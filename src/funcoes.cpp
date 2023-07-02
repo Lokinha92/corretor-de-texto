@@ -1,5 +1,17 @@
 #include "funcoes.hpp"
 
+template <typename T>
+string concatenateElements(const vector<T>& elements, const string& delimiter = " ") {
+    stringstream ss;
+    for (size_t i = 0; i < elements.size(); i++) {
+        ss << elements[i];
+        if (i != elements.size() - 1) {
+            ss << delimiter;
+        }
+    }
+    return ss.str();
+}
+
 vector<pair<int, string>> lerArquivo(const string &nomeArquivo) {
     vector<pair<int, string>> linhas;
     ifstream arquivo(nomeArquivo);
@@ -121,6 +133,7 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
     string linhaExpressao;
     while (getline(expressoesFile, linhaExpressao)) {
         expressoesMap[linhaExpressao] = make_pair(0, 0); // Inicializa a contagem de ocorrências das expressões
+        // cout << expressoesFile << endl;
     }
 
     expressoesFile.close();
@@ -136,7 +149,7 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
 
             for (auto &palavra : my_sentence) {
                 sentencaPalavrasComStopwords++;
-
+                tolowerStr(palavra.second);
                 if (stopwords.find(palavra.second) == stopwords.end()) {
                     sentencaPalavrasSemStopwords++;
                 }
@@ -164,6 +177,10 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
                         palavraAtual.pop_back();
                     }
 
+                    if (!palavraAtual.empty() && palavraAtual.back() == ',') {
+                        palavraAtual.pop_back();
+                    }
+
                     for (size_t i = 0; i < wordTable.size(); i++) {
                         if (wordTable[i].palavra == palavraAtual) {
                             palavraExiste = true;
@@ -184,7 +201,7 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
                         }
                     } else {
                         int linha = palavra.first;
-                        WordInfo novaPalavra(palavraAtual, 1, palavraIndex, std::to_string(linha), "");
+                        WordInfo novaPalavra(palavraAtual, 1, palavraIndex, to_string(linha), "");
 
                         wordTable.push_back(novaPalavra);
                         wordPositionMap[palavraAtual].push_back(position);
@@ -192,6 +209,10 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
                     }
                 }
             }
+
+            sort(wordTable.begin(), wordTable.end(), [](const WordInfo &a, const WordInfo &b) {
+                return a.palavra < b.palavra;
+            });
 
             // Imprimir a tabela de palavras da sentença no arquivo
             outputFile << left << setw(30) << "WORD" << setw(15) << "PARAGRAPH" << setw(15) << "SENTENCE" << setw(15) << "LINE" << setw(15) << "APPEARANCES" << setw(15) << "POSITIONS" << "\n";
@@ -219,7 +240,7 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
 
             // Analisar as expressões
             if (sentencaIndex == paragrafosMapeados[paragrafoAtual].size()) {
-                outputFile << "EXPRESSION" << setw(100) << "LINE" << setw(20) << "APPEARANCES" << "\n";
+                outputFile << "EXPRESSION" << setw(70) << "" << "LINE" << setw(20) << "" << "APPEARANCES" << "\n";
                 outputFile << "---------------------------------------------------------------------------------------------------------------------------------------\n";
 
                 for (auto &expressao : expressoesMap) {
@@ -261,4 +282,188 @@ void analisarTexto(vector<vector<vector<pair<int, string>>>> &paragrafosMapeados
     cout << "A análise do texto foi concluída. Verifique o arquivo output.txt para ver os resultados." << endl;
 }
 
+void gerarRelatorio(const vector<vector<vector<pair<int, string>>>>& paragrafos,
+                    const unordered_set<string>& stopwords,
+                    const unordered_set<string>& expressoes) {
+    ofstream arquivo("dataset/output.txt", ios::app);
+    if (!arquivo) {
+        cout << "Erro ao abrir o arquivo." << endl;
+        return;
+    }
 
+    arquivo << "======================================================================================================================================\n";
+    arquivo << "=>                                                    ### FULL RESULT ###                                                               \n";
+    arquivo << "======================================================================================================================================\n";
+    arquivo << "\n";
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+    arquivo << "WORD\t\t\tPARAGRAPH\t\tSENTENCE\t\tLINE\t\tAPPEARANCES\t\tPOSITIONS\n";
+    arquivo << "---------------------------------------------------------------------------------------------------------------------------------------\n";
+
+    vector<WordInfo2> palavras;
+
+    for (int i = 0; i < paragrafos.size(); i++) {
+        for (int j = 0; j < paragrafos[i].size(); j++) {
+            for (int k = 0; k < paragrafos[i][j].size(); k++) {
+                string palavra = paragrafos[i][j][k].second;
+
+                if (stopwords.count(palavra) || expressoes.count(palavra)) {
+                    continue;
+                }
+
+                bool palavraExistente = false;
+                for (int index = 0; index < palavras.size(); index++) {
+                    if (palavras[index].palavra == palavra) {
+                        palavras[index].ocorrencias++;
+                        palavras[index].posicoes.push_back(k + 1);
+
+                        if (find(palavras[index].linhas.begin(), palavras[index].linhas.end(), paragrafos[i][j][k].first) == palavras[index].linhas.end()) {
+                            palavras[index].linhas.push_back(paragrafos[i][j][k].first);
+                        }
+                        if (find(palavras[index].paragrafos.begin(), palavras[index].paragrafos.end(), i + 1) == palavras[index].paragrafos.end()) {
+                            palavras[index].paragrafos.push_back(i + 1);
+                        }
+                        if (find(palavras[index].sentencas.begin(), palavras[index].sentencas.end(), j + 1) == palavras[index].sentencas.end()) {
+                            palavras[index].sentencas.push_back(j + 1);
+                        }
+
+                        palavraExistente = true;
+                        break;
+                    }
+                }
+
+                if (!palavraExistente) {
+                    palavras.push_back(WordInfo2(palavra, i + 1, j + 1, paragrafos[i][j][k].first, 1, k + 1));
+                }
+            }
+        }
+    }
+
+    sort(palavras.begin(), palavras.end(), [](const WordInfo2& a, const WordInfo2& b) {
+        return a.palavra < b.palavra;
+    });
+
+    for (const WordInfo2& word : palavras) {
+        arquivo << word.palavra << "\t\t\t";
+        arquivo << concatenateElements(word.paragrafos) << "\t\t\t";
+        arquivo << concatenateElements(word.sentencas) << "\t\t\t";
+        arquivo << concatenateElements(word.linhas) << "\t\t\t";
+        arquivo << word.ocorrencias << "\t\t\t";
+        arquivo << concatenateElements(word.posicoes) << "\n";
+    }
+
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+
+    arquivo.close();
+}
+
+void contarPalavras(const vector<vector<vector<pair<int, string>>>>& paragrafosMapeados, const unordered_set<string>& stopwords) {
+    ofstream arquivo("dataset/output.txt", ios::app);
+    if (!arquivo) {
+        cout << "Erro ao abrir o arquivo." << endl;
+        return;
+    }
+
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+    arquivo << "                                       NUMBER OF WORDS IN EACH SENTENCE WITH AND WITHOUT STOP WORDS                                     \n";
+    arquivo << "---------------------------------------------------------------------------------------------------------------------------------------\n";
+
+    for (int i = 0; i < paragrafosMapeados.size(); i++) {
+        int linhaInicioParagrafo = paragrafosMapeados[i][0][0].first;
+        int numSentencas = paragrafosMapeados[i].size();
+
+        for (int j = 0; j < paragrafosMapeados[i].size(); j++) {
+            int numPalavrasComStopwords = 0;
+            int numPalavrasSemStopwords = 0;
+
+            for (int k = 0; k < paragrafosMapeados[i][j].size(); k++) {
+                string palavra = paragrafosMapeados[i][j][k].second;
+
+                if (stopwords.count(palavra) == 0) {
+                    numPalavrasSemStopwords++;
+                }
+
+                numPalavrasComStopwords++;
+            }
+
+            arquivo << "Paragraph: " << i + 1 << "\t Sentence: " << j + 1 << "\t Number of words with stop words: " << numPalavrasComStopwords << "\t Number of words without stop words: " << numPalavrasSemStopwords << "\n";
+        }
+
+        arquivo << "_______________________________________________________________________________________________________________________________________\n";
+    }
+
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+    arquivo << "                                                   LINE NUMBER THAT START EACH PARAGRAPH                                                \n";
+    arquivo << "---------------------------------------------------------------------------------------------------------------------------------------\n";
+
+    for (int i = 0; i < paragrafosMapeados.size(); i++) {
+        int linhaInicioParagrafo = paragrafosMapeados[i][0][0].first;
+        int numSentencas = paragrafosMapeados[i].size();
+
+        arquivo << "Paragraph: " << i + 1 << "\t Beginning in line: " << linhaInicioParagrafo << "\t Number of sentences: " << numSentencas << "\n";
+    }
+
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+
+    arquivo.close();
+}
+
+void contarExpressoes(const std::vector<std::vector<std::vector<std::pair<int, std::string>>>>& paragrafosMapeados, const std::unordered_set<std::string>& expressions) {
+    std::unordered_map<std::string, std::vector<int>> expressoesMap;
+    std::unordered_map<std::string, int> contagemExpressoes;
+
+    for (const auto& expression : expressions) {
+        expressoesMap[expression] = std::vector<int>();
+        contagemExpressoes[expression] = 0;
+    }
+
+    for (int i = 0; i < paragrafosMapeados.size(); i++) {
+        for (int j = 0; j < paragrafosMapeados[i].size(); j++) {
+            int linha = paragrafosMapeados[i][j][0].first;
+            std::string texto;
+
+            for (int k = 0; k < paragrafosMapeados[i][j].size(); k++) {
+                texto += paragrafosMapeados[i][j][k].second + " ";
+            }
+
+            for (const auto& expression : expressions) {
+                size_t pos = texto.find(expression);
+                while (pos != std::string::npos) {
+                    expressoesMap[expression].push_back(linha);
+                    contagemExpressoes[expression]++;
+                    pos = texto.find(expression, pos + 1);
+                }
+            }
+        }
+    }
+
+    std::ofstream arquivo("dataset/output.txt", ios::app);
+    if (!arquivo) {
+        std::cout << "Erro ao abrir o arquivo." << std::endl;
+        return;
+    }
+
+    arquivo << "_______________________________________________________________________________________________________________________________________\n";
+    arquivo << "EXPRESSION \t\t\t\t\t  LINE \t\t   APPEARANCES \n";
+    arquivo << "---------------------------------------------------------------------------------------------------------------------------------------\n";
+
+    for (const auto& expression : expressions) {
+        const auto& linhas = expressoesMap[expression];
+        if (!linhas.empty()) {
+            arquivo << expression << "\t\t\t\t\t";
+            for (int i = 0; i < linhas.size(); i++) {
+                arquivo << linhas[i];
+                if (i < linhas.size() - 1)
+                    arquivo << " ";
+            }
+            arquivo << "\t\t       " << contagemExpressoes[expression] << "\n";
+        }
+    }
+
+    arquivo << "---------------------------------------------------------------------------------------------------------------------------------------\n";
+    arquivo << "======================================================================================================================================\n";
+    arquivo << "=>                                                    ### END PROCESS ###                                                              \n";
+    arquivo << "======================================================================================================================================\n";
+
+    arquivo.close();
+}

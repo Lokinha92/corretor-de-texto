@@ -14,9 +14,15 @@ int main() {
     //     //sentencasPorParagrafo.push_back(sentencas);
     // }
 
+    // 1
     analisarTexto(paragrafos, stopwords);
 
+    // 2
+    gerarRelatorio(paragrafos, stopwords, expressions);
+    contarPalavras(paragrafos, stopwords);
 
+    // 3
+    contarExpressoes(paragrafos, expressions);
 
     return 0;
 }
